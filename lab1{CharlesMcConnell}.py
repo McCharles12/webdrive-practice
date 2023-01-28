@@ -62,16 +62,17 @@ time.sleep(1)
 
 
 #hovercraft()
-#time.sleep(2)
 
 
 clikit()
-time.sleep(1)
+time.sleep(2)
 
 driver.close()
 logging.info('- Closed Browser.')
 
 print('The test was completed at: ', currTime)
+print("I'm trying to make this work")
+#Check to see if this is added. 
 
 driver.quit()
 
